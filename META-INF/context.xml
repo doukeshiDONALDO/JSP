@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Context displayName="practice" docBase="practice" path="/practice"
+  reloadable="true" useHttpOnly="false">
+  <Resource name="jdbc/test" auth="Container"
+    type="javax.sql.DataSource" username="root" password=""
+    driverClassName="org.gjt.mm.mysql.Driver"
+    url="jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=UTF-8" maxActive="4" maxWait="5000" maxIdle="2"
+     />
+  <!--  validationQuery="SELECT count(*) FROM jsp10"
+     />
+  
+  
+  -->
+</Context>
